@@ -27,9 +27,10 @@ plt.ylabel('Test score')
 plt.title('Linear Regression')
 plt.legend()
 plt.show()
+plt.grid(True)
 
 
-
+#Preict Data
 print("slope(m):", model.coef_[0])
 print("Intercept(b):", model.intercept_)
 print("prediction for 6 hours study:", model.predict([[6]])[0])
