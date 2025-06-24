@@ -30,7 +30,6 @@ plt.show()
 
 
 
-#
 print("slope(m):", model.coef_[0])
 print("Intercept(b):", model.intercept_)
 print("prediction for 6 hours study:", model.predict([[6]])[0])
